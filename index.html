@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boston Website Design - Best Websites In Boston</title>
+    <meta name="description" content="Professional website design services in Boston. We create stunning, modern websites that drive results for your business.">
+    <meta name="keywords" content="Boston website design, web development, professional websites, modern design">
+    <meta name="author" content="Boston Website Design">
+    <link rel="canonical" href="https://bostonwebsitedesign.com">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100">
+    <!-- Header -->
+    <header class="bg-gray-950 shadow-lg fixed w-full top-0 z-50">
+        <nav class="container mx-auto flex items-center justify-between px-4 py-4 max-w-7xl">
+            <!-- Logo -->
+            <div class="flex lg:flex-1">
+                <a href="#" class="flex items-center gap-2">
+                    <div class="w-10 h-10">
+                        <svg viewBox="0 0 24 24" class="w-10 h-10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="10" class="stroke-blue-500" stroke-width="2"/>
+                            <path d="M7 12C7 12 9 8 12 8C15 8 17 12 17 12" class="stroke-blue-400" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M7 12C7 12 9 16 12 16C15 16 17 12 17 12" class="stroke-blue-600" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="12" cy="12" r="2" class="fill-blue-500"/>
+                        </svg>
+                    </div>
+                    <span class="font-bold text-xl text-gray-100">Boston Website Design</span>
+                </a>
+            </div>
+            
+            <!-- Mobile hamburger -->
+            <div class="md:hidden">
+                <button class="mobile-menu-button p-2 rounded-md text-gray-300 hover:text-blue-400 hover:bg-gray-800 transition-colors duration-300">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+            
+            <!-- Desktop navigation -->
+            <div class="hidden md:flex md:justify-center md:gap-8 md:items-center">
+                <a href="#features" class="text-gray-300 hover:text-blue-400 transition-colors duration-300 font-medium">Features</a>
+                <a href="#about" class="text-gray-300 hover:text-blue-400 transition-colors duration-300 font-medium">About</a>
+                <a href="#testimonials" class="text-gray-300 hover:text-blue-400 transition-colors duration-300 font-medium">Testimonials</a>
+                <a href="#services" class="text-gray-300 hover:text-blue-400 transition-colors duration-300 font-medium">Services</a>
+                <a href="#faq" class="text-gray-300 hover:text-blue-400 transition-colors duration-300 font-medium">FAQ</a>
+                <a href="#contact" class="text-gray-300 hover:text-blue-400 transition-colors duration-300 font-medium">Contact</a>
+            </div>
+            
+            <!-- Desktop CTA -->
+            <div class="hidden md:flex md:justify-end md:flex-1">
+                <a href="https://www.skool.com/online-ninja-5346/about" class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 hover:scale-105 transform transition-all duration-300 shadow-md font-medium hover:shadow-lg hover:bg-opacity-90">
+                    Get Started
+                </a>
+            </div>
+        </nav>
+        
+        <!-- Mobile menu -->
+        <div class="mobile-menu hidden md:hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gray-950 border-t border-gray-800">
+                <a href="#features" class="block px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-800 hover:text-blue-400 rounded-md transition-colors duration-300">Features</a>
+                <a href="#about" class="block px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-800 hover:text-blue-400 rounded-md transition-colors duration-300">About</a>
+                <a href="#testimonials" class="block px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-800 hover:text-blue-400 rounded-md transition-colors duration-300">Testimonials</a>
+                <a href="#services" class="block px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-800 hover:text-blue-400 rounded-md transition-colors duration-300">Services</a>
+                <a href="#faq" class="block px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-800 hover:text-blue-400 rounded-md transition-colors duration-300">FAQ</a>
+                <a href="#contact" class="block px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-800 hover:text-blue-400 rounded-md transition-colors duration-300">Contact</a>
+                <div class="border-t border-gray-800 pt-4">
+                    <a href="https://www.skool.com/online-ninja-5346/about" class="block w-full bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-300 shadow-md font-medium text-center">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center pt-16 px-4 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop" alt="Modern workspace" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-br from-blue-950 to-black opacity-40"></div>
+        </div>
+        <div class="container mx-auto max-w-7xl relative z-10">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl lg:text-7xl font-bold text-gray-100 mb-6 leading-tight">
+                    Best Websites In <span class="text-blue-500">Boston</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+                    We create stunning, modern websites that drive results for your business. From concept to launch, we deliver exceptional digital experiences that convert visitors into customers.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4 mb-12">
+                    <a href="https://www.skool.com/online-ninja-5346/about" class="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 hover:scale-105 transform transition-all duration-300 shadow-lg text-lg hover:shadow-xl hover:bg-opacity-90">
+                        Start Your Project
+                    </a>
+                    <a href="#about" class="bg-transparent text-blue-400 px-8 py-4 rounded-lg font-semibold hover:bg-gray-800 hover:bg-opacity-50 border-2 border-blue-600 hover:scale-105 transform transition-all duration-300 shadow-lg text-lg hover:shadow-xl">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Hero Image/Stats -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto mt-16">
+                <div class="bg-gray-800 bg-opacity-80 backdrop-blur rounded-xl p-6 shadow-lg text-center hover:shadow-xl transition-shadow duration-300 hover:scale-105 transform border border-gray-700">
+                    <div class="text-3xl font-bold text-blue-500 mb-2">100+</div>
+                    <div class="text-gray-300 font-medium">Projects Completed</div>
+                </div>
+                <div class="bg-gray-800 bg-opacity-80 backdrop-blur rounded-xl p-6 shadow-lg text-center hover:shadow-xl transition-shadow duration-300 hover:scale-105 transform border border-gray-700">
+                    <div class="text-3xl font-bold text-blue-500 mb-2">5★</div>
+                    <div class="text-gray-300 font-medium">Average Rating</div>
+                </div>
+                <div class="bg-gray-800 bg-opacity-80 backdrop-blur rounded-xl p-6 shadow-lg text-center hover:shadow-xl transition-shadow duration-300 hover:scale-105 transform border border-gray-700">
+                    <div class="text-3xl font-bold text-blue-500 mb-2">24/7</div>
+                    <div class="text-gray-300 font-medium">Support Available</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-24 px-4 bg-gray-950">
+        <div class="container mx-auto max-w-7xl">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-100 mb-4">Why Choose Boston Website Design?</h2>
+                <p class="text-xl text-gray-400 max-w-3xl mx-auto">We combine cutting-edge design with powerful functionality to create websites that not only look amazing but deliver real results and drive business growth.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-900 rounded-xl p-8 hover:shadow-xl transition-shadow duration-300 hover:scale-105 transform border border-gray-800">
+                    <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-palette text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-100 mb-4">Custom Design</h3>
+                    <p class="text-gray-400">Every website is uniquely crafted to reflect your brand and meet your specific business goals with stunning visual appeal.</p>
+                </div>
+                
+                <div class="bg-gray-900 rounded-xl p-8 hover:shadow-xl transition-shadow duration-300 hover:scale-105 transform border border-gray-800">
+                    <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-mobile-alt text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-100 mb-4">Mobile Optimized</h3>
+                    <p class="text-gray-400">All our websites are fully responsive and optimized for perfect performance on all devices, ensuring maximum reach.</p>
+                </div>
+                
+                <div class="bg-gray-900 rounded-xl p-8 hover:shadow-xl transition-shadow duration-300 hover:scale-105 transform border border-gray-800">
+                    <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-bolt text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-100 mb-4">Lightning Fast</h3>
+                    <p class="text-gray-400">Optimized for speed and performance to ensure your visitors have the best possible experience and stay engaged.</p>
+                </div>
+                
+                <div class="bg-gray-900 rounded-xl p-8 hover:shadow-xl transition-shadow duration-300 hover:scale-105 transform border border-gray-800">
+                    <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-search text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-100 mb-4">SEO Optimized</h3>
+                    <p class="text-gray-400">Built with search engine optimization in mind to help you rank higher and attract more qualified visitors to your site.</p>
+                </div>
+                
+                <div class="bg-gray-900 rounded-xl p-8 hover:shadow-xl transition-shadow duration-300 hover:scale-105 transform border border-gray-800">
+                    <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-shield-alt text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-100 mb-4">Secure & Reliable</h3>
+                    <p class="text-gray-400">Enterprise-grade security and reliability to protect your business and your customers' data with peace of mind.</p>
+                </div>
+                
+                <div class="bg-gray-900 rounded-xl p-8 hover:shadow-xl transition-shadow duration-300 hover:scale-105 transform border border-gray-800">
+                    <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-headset text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-100 mb-4">Ongoing Support</h3>
+                    <p class="text-gray-400">Comprehensive support and maintenance to keep your website running smoothly 24/7 with expert assistance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 px-4 bg-gray-900">
+        <div class="container mx-auto max-w-7xl">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-100 mb-6">Creating Digital Excellence in Boston</h2>
+                    <p class="text-lg text-gray-400 mb-6">
+                        Founded in 2013, Boston Website Design has been at the forefront of digital innovation, helping businesses across Massachusetts establish powerful online presences. Our journey began with a simple mission: to create websites that not only look stunning but drive real business results for our clients.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="https://www.skool.com/online-ninja-5346/about" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 hover:scale-105 transform transition-all duration-300 shadow-md text-center hover:shadow-lg hover:bg-opacity-90">
+                            Get Started Today
+                        </a>
+                        <a href="mailto:admin@bwd.com" class="bg-transparent text-blue-400 px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 border-2 border-blue-600 hover:scale-105 transform transition-all duration-300 shadow-md text-center hover:shadow-lg">
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-700">
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-blue-500 mb-2">10+</div>
+                            <div class="text-gray-400 font-medium">Years Experience</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-blue-500 mb-2">500+</div>
+                            <div class="text-gray-400 font-medium">Happy Clients</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-blue-500 mb-2">98%</div>
+                            <div class="text-gray-400 font-medium">Client Satisfaction</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-blue-500 mb-2">24h</div>
+                            <div class="text-gray-400 font-medium">Response Time</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 px-4 bg-gray-950">
+        <div class="container mx-auto max-w-7xl">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-100 mb-4">What Our Clients Say</h2>
+                <p class="text-xl text-gray-400 max-w-3xl mx-auto">Don't just take our word for it. Here's what our satisfied clients have to say about their experience working with us.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-900 rounded-xl p-8 hover:shadow-xl transition-shadow duration-300 hover:scale-105 transform border border-gray-800">
+                    <div class="flex mb-4">
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                    </div>
+                    <p class="text-gray-400 mb-6 italic">"Boston Website Design transformed our online presence completely. Our new website increased our leads by 300% in just three months. The team's attention to detail and understanding of our business needs was exceptional."</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            SM
+                        </div>
+                        <div>
+                            <div class="font-semibold text-gray-100">Sarah Mitchell</div>
+                            <div class="text-gray-400">CEO, TechStart Boston</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-900 rounded-xl p-8 hover:shadow-xl transition-shadow duration-300 hover:scale-105 transform border border-gray-800">
+                    <div class="flex mb-4">
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                    </div>
+                    <p class="text-gray-400 mb-6 italic">"Working with this team was a game-changer for our restaurant. Our online ordering system is now seamless, and we've seen a 250% increase in online sales. The mobile optimization is perfect for our customers."</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            MR
+                        </div>
+                        <div>
+                            <div class="font-semibold text-gray-100">Marco Rodriguez</div>
+                            <div class="text-gray-400">Owner, Bella Vista Restaurant</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-900 rounded-xl p-8 hover:shadow-xl transition-shadow duration-300 hover:scale-105 transform border border-gray-800">
+                    <div class="flex mb-4">
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                    </div>
+                    <p class="text-gray-400 mb-6 italic">"The e-commerce platform they built for us is incredibly user-friendly and has boosted our conversion rates by 180%. Their ongoing support has been invaluable for our growing business."</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            JC
+                        </div>
+                        <div>
+                            <div class="font-semibold text-gray-100">Jennifer Chen</div>
+                            <div class="text-gray-400">Founder, Boston Boutique</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-900 rounded-xl p-8 hover:shadow-xl transition-shadow duration-300 hover:scale-105 transform border border-gray-800">
+                    <div class="flex mb-4">
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                    </div>
+                    <p class="text-gray-400 mb-6 italic">"Their SEO optimization strategies helped us rank #1 for our main keywords within 6 months. Our organic traffic increased by 400%, and we're now dominating our local market online."</p>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                            DT
+                        </div>
+                        <div>
+                            <div class="font-semibold text-gray-100">David Thompson</div>
+                            <div class="text-gray-400">Partner, Thompson & Associates Law</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 px-4 bg-gray-900">
+        <div class="container mx-auto max-w-7xl">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-100 mb-4">Our Services</h2>
+                <p class="text-xl text-gray-400 max-w-3xl mx-auto">Comprehensive web design and development services to help your business succeed online and dominate your competition.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 hover:shadow-xl transition-shadow duration-300 hover:scale-105 transform border border-gray-700">
+                    <h3 class="text-2xl font-semibold text-gray-100 mb-4">Custom Website Design</h3>
+                    <p class="text-gray-400 mb-6">Unique, brand-focused designs that capture your vision and engage your audience with sophisticated visual appeal.</p>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-check text-blue-500"></i>
+                            Responsive Design
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-check text-blue-500"></i>
+                            Brand Integration
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-check text-blue-500"></i>
+                            User Experience Optimization
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 hover:shadow-xl transition-shadow duration-300 hover:scale-105 transform border border-gray-700">
+                    <h3 class="text-2xl font-semibold text-gray-100 mb-4">E-commerce Development</h3>
+                    <p class="text-gray-400 mb-6">Powerful online stores that convert visitors into customers and drive sales with cutting-edge technology.</p>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-check text-green-500"></i>
+                            Shopping Cart Integration
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-check text-green-500"></i>
+                            Payment Processing
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-check text-green-500"></i>
+                            Inventory Management
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 hover:shadow-xl transition-shadow duration-300 hover:scale-105 transform border border-gray-700">
+                    <h3 class="text-2xl font-semibold text-gray-100 mb-4">SEO & Marketing</h3>
+                    <p class="text-gray-400 mb-6">Comprehensive digital marketing strategies to increase your online visibility and dominate search results.</p>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-check text-purple-500"></i>
+                            Search Engine Optimization
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-check text-purple-500"></i>
+                            Content Marketing
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-check text-purple-500"></i>
+                            Social Media Integration
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 hover:shadow-xl transition-shadow duration-300 hover:scale-105 transform border border-gray-700">
+                    <h3 class="text-2xl font-semibold text-gray-100 mb-4">Maintenance & Support</h3>
+                    <p class="text-gray-400 mb-6">Ongoing support and maintenance to keep your website secure, updated, and performing at its best.</p>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-check text-orange-500"></i>
+                            Regular Updates
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-check text-orange-500"></i>
+                            Security Monitoring
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fas fa-check text-orange-500"></i>
+                            Technical Support
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-24 px-4 bg-gray-950">
+        <div class="container mx-auto max-w-4xl">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-100 mb-4">Frequently Asked Questions</h2>
+                <p class="text-xl text-gray-400">Get answers to the most common questions about our web design services and process.</p>
+            </div>
+            
+            <div class="space-y-6">
+                <div class="bg-gray-900 rounded-xl p-8 hover:shadow-lg transition-shadow duration-300 border border-gray-800">
+                    <h3 class="text-xl font-semibold text-gray-100 mb-4">How long does it take to build a website?</h3>
+                    <p class="text-gray-400">The timeline for website development depends on the complexity and scope of your project. A standard business website typically takes 4-6 weeks from initial consultation to launch. E-commerce sites and more complex projects may take 8-12 weeks. We provide detailed timelines during our initial consultation and keep you updated throughout the entire process. Rush projects can be accommodated with premium pricing.</p>
+                </div>
+                
+                <div class="bg-gray-900 rounded-xl p-8 hover:shadow-lg transition-shadow duration-300 border border-gray-800">
+                    <h3 class="text-xl font-semibold text-gray-100 mb-4">What's included in your website design packages?</h3>
+                    <p class="text-gray-400">Our comprehensive packages include custom design, responsive mobile optimization, SEO setup, content management system, contact forms, social media integration, SSL security certificate, and 30 days of post-launch support. We also provide training on how to update your website content, basic analytics setup, and performance optimization. Additional features like e-commerce functionality, advanced SEO, and ongoing maintenance are available as add-ons.</p>
+                </div>
+                
+                <div class="bg-gray-900 rounded-xl p-8 hover:shadow-lg transition-shadow duration-300 border border-gray-800">
+                    <h3 class="text-xl font-semibold text-gray-100 mb-4">Do you provide ongoing support and maintenance?</h3>
+                    <p class="text-gray-400">Yes, we offer comprehensive ongoing support and maintenance packages to keep your website secure, updated, and performing optimally. Our maintenance services include regular software updates, security monitoring, backup management, content updates, performance optimization, and technical support. We offer different tiers of support plans to match your needs and budget, with response times ranging from 24 hours to same-day for urgent issues.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-24 px-4 bg-gradient-to-r from-blue-600 to-blue-800">
+        <div class="container mx-auto max-w-7xl text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Ready to Transform Your Online Presence?</h2>
+            <p class="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+                Join hundreds of satisfied clients who have elevated their business with our premium web design services and dominate their competition online.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="https://www.skool.com/online-ninja-5346/about" class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 hover:scale-105 transform transition-all duration-300 shadow-lg text-lg hover:shadow-xl">
+                    Start Your Project
+                </a>
+                <a href="mailto:admin@bwd.com" class="bg-transparent text-white border-2 border-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 hover:scale-105 transform transition-all duration-300 shadow-lg text-lg hover:shadow-xl">
+                    Get Free Quote
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 px-4 bg-gray-900">
+        <div class="container mx-auto max-w-7xl">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-100 mb-4">Get In Touch</h2>
+                <p class="text-xl text-gray-400 max-w-3xl mx-auto">Ready to discuss your project? We're here to help you create something amazing that drives real results.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-semibold text-gray-100 mb-6">Let's Start Your Project</h3>
+                    <p class="text-gray-400 mb-8">
+                        Whether you're looking to build a new website, redesign an existing one, or need ongoing support, we're here to help. Contact us today for a free consultation and discover how we can transform your online presence.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-envelope text-white"></i>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-gray-100">Email</div>
+                                <a href="mailto:admin@bwd.com" class="text-blue-400 hover:text-blue-300 transition-colors duration-300">admin@bwd.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-map-marker-alt text-white"></i>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-gray-100">Location</div>
+                                <div class="text-gray-400">Boston, Massachusetts</div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-clock text-white"></i>
+                            </div>
+                            <div>
+                                <div class="font-semibold text-gray-100">Response Time</div>
+                                <div class="text-gray-400">Within 24 hours</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-700">
+                    <h3 class="text-2xl font-semibold text-gray-100 mb-6">Quick Start</h3>
+                    <p class="text-gray-400 mb-6">Ready to get started? Click the button below to begin your project with us and transform your business online.</p>
+                    <a href="https://www.skool.com/online-ninja-5346/about" class="w-full bg-blue-600 text-white px-6 py-4 rounded-lg font-semibold hover:bg-blue-700 hover:scale-105 transform transition-all duration-300 shadow-lg text-lg block text-center hover:shadow-xl hover:bg-opacity-90">
+                        Start Your Project Now
+                    </a>
+                    
+                    <div class="mt-8 pt-8 border-t border-gray-700">
+                        <h4 class="font-semibold text-gray-100 mb-4">What happens next?</h4>
+                        <ul class="space-y-3 text-gray-400">
+                            <li class="flex items-start gap-3">
+                                <span class="bg-blue-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-semibold flex-shrink-0">1</span>
+                                <span>We'll schedule a consultation to discuss your needs</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="bg-blue-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-semibold flex-shrink-0">2</span>
+                                <span>We'll create a custom proposal and timeline</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="bg-blue-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-semibold flex-shrink-0">3</span>
+                                <span>We'll begin bringing your vision to life</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-950 text-white py-16 px-4 border-t border-gray-800">
+        <div class="container mx-auto max-w-7xl">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center gap-2 mb-6">
+                        <div class="w-10 h-10">
+                            <svg viewBox="0 0 24 24" class="w-10 h-10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" class="stroke-blue-500" stroke-width="2"/>
+                                <path d="M7 12C7 12 9 8 12 8C15 8 17 12 17 12" class="stroke-blue-400" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M7 12C7 12 9 16 12 16C15 16 17 12 17 12" class="stroke-blue-600" stroke-width="2" stroke-linecap="round"/>
+                                <circle cx="12" cy="12" r="2" class="fill-blue-500"/>
+                            </svg>
+                        </div>
+                        <span class="font-bold text-xl">Boston Website Design</span>
+                    </div>
+                    <p class="text-gray-400 mb-6">Creating exceptional digital experiences for Boston businesses since 2013.</p>
+                    <a href="mailto:admin@bwd.com" class="text-blue-400 hover:text-blue-300 transition-colors duration-300">admin@bwd.com</a>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold text-lg mb-6">Services</h4>
+                    <ul class="space-y-3 text-gray-400">
+                        <li><a href="#services" class="hover:text-white transition-colors duration-300">Website Design</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors duration-300">E-commerce Development</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors duration-300">SEO & Marketing</a></li>
+                        <li><a href="#services" class="hover:text-white transition-colors duration-300">Maintenance & Support</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold text-lg mb-6">Company</h4>
+                    <ul class="space-y-3 text-gray-400">
+                        <li><a href="#about" class="hover:text-white transition-colors duration-300">About Us</a></li>
+                        <li><a href="#testimonials" class="hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#faq" class="hover:text-white transition-colors duration-300">FAQ</a></li>
+                        <li><a href="#contact" class="hover:text-white transition-colors duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold text-lg mb-6">Get Started</h4>
+                    <p class="text-gray-400 mb-6">Ready to transform your online presence?</p>
+                    <a href="https://www.skool.com/online-ninja-5346/about" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 hover:scale-105 transform transition-all duration-300 shadow-lg inline-block hover:shadow-xl hover:bg-opacity-90">
+                        Start Project
+                    </a>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2024 Boston Website Design. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+</html>
